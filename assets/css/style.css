@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+	box-sizing:border-box;
+	text-decoration:none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: rgb(247, 189, 189);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.03);
+    padding: 40px;
+    line-height: 10px;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-menu{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 24px;
+   
+    
+}
+
+
+.nav-menu li a{
+    margin: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 32px;
+
+
+}
+
+.nav-menu li a:hover{
+    color: blue;
+   
+}
+
+.title{
+    font-size: 32px;
+    color: cornsilk;
+}
+
+.bg-color-block{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#btn{
+    font-family:sans-serif;
+	font-size:18px;
+    color:black;
+    padding: 10px 25px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid rgb(199, 205, 236);
+    margin-top: 20px;
+    
+    
+}
+
+#btn:hover{
+    color: rgb(114, 250, 114);
+    background-color: rgb(4, 5, 70);
+}
+
+.text-title{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: rgb(204, 23, 23);
+    text-align: center;
+    background-color: rgb(46, 33, 30);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+body{
+    background-color: blue;
+}
